@@ -35,7 +35,7 @@ export default function PostForm({ post }) {
         ...data,
         featuredImage: file ? file.$id : undefined,
       });
-      console.log("....here", dbPost);
+      console.log("....heree", dbPost);
 
       if (dbPost) {
         console.log("adassadc", dbPost.$id);
